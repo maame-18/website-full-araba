@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    display: flex;
+    height: 60px;
+    background: rgb(2, 2, 19);
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav ul {
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    color:white ;
+    font-size: 17px;
+}
+.logo a{
+    font-size: 23px;
+    color:#fff;
+}
+.color-change{
+    color: rgb(20, 48, 185);
+    font-weight: bolder;
+}
+
+.new{
+    min-height: 100vh;
+}
+ 
+
+  .wal{
+    background: url(pictures/wallpaperflare.com_wallpaper.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    }
+      .sp1{
+    font-size: 45px;
+    position: relative;
+    top:250px;
+    color: #b451ea;
+    font: bold;
+    left: 650px;
+    align-items: center;
+    
+  }
+  .sp2{
+    font-size: 40px;
+    position: relative;
+    top:250px;
+    color: #1679e3dc;
+    font: bold;
+    left: 500px;
+  }
+ .button{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 80px;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    /* background-color: #000; */
+    border: 5px solid  ;
+    border-radius: 10px;
+    position: relative;
+    top: 300px;
+    right: -180px;
+ } 
+  
+.button:hover {background-color: rebeccapurple}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+.txt{
+    position: relative;
+    top: -690px;
+}
+
+.pics{
+    height: 30vh;
+    width: 50px;
+   
+}
+.img2{
+    background: url(pictures/img2.jpeg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.img1{
+    background: url(pictures/img1.jpeg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.img3{
+    background: url(pictures/img3.jpeg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    position: relative;
+    left: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    
+}
+
+.s2{
+    font-size: 40px;
+    color: blue;
+    position:relative ;
+    left: 750px;
+    top: -35px;
+}
+.s2-change{
+    font: 40px;
+    color: rebeccapurple;
+}
+.others{
+    height: 70vh;
+    background: url(/pictures/wallpaperflare.com_wallpaper\ \(2\).jpg);
+}
